@@ -1,0 +1,126 @@
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.deps.json
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.dll
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\ref\Stanmore_App.dll
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.pdb
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.csproj.AssemblyReference.cache
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.AssemblyInfoInputs.cache
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.AssemblyInfo.cs
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.csproj.CoreCompileInputs.cache
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.dll
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ref\Stanmore_App.dll
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.pdb
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\RegistrationPage.xaml.g.cs
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\AboutUs.xaml.g.cs
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\SignIn.xaml.g.cs
+C:\Users\PAt21000931\source\repos\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.deps.json
+D:\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.dll
+D:\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.pdb
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.csproj.AssemblyReference.cache
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\AboutUs.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\RegistrationPage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\SignIn.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.AssemblyInfoInputs.cache
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.AssemblyInfo.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.csproj.CoreCompileInputs.cache
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.dll
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.pdb
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ref\Stanmore_App.dll
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\CourseInformationPage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\BusinessPage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\EngineeringPage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ITPage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\TodaysTimetable.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ActivitiesPage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Menu.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\WeeklyTimetable.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\AssignmentsPage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ContactsPage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\MePage.xaml.g.cs
+D:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.deps.json
+E:\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.dll
+E:\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\ref\Stanmore_App.dll
+E:\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.pdb
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.csproj.AssemblyReference.cache
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.GeneratedMSBuildEditorConfig.editorconfig
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\AboutUs.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ActivitiesPage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\AssignmentsPage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\BusinessPage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ContactsPage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\CourseInformationPage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\EngineeringPage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ITPage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Menu.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\MePage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\RegistrationPage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\SignIn.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\TodaysTimetable.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\WeeklyTimetable.xaml.g.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.AssemblyInfoInputs.cache
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.AssemblyInfo.cs
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.csproj.CoreCompileInputs.cache
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.dll
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ref\Stanmore_App.dll
+E:\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.pdb
+D:\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\ref\Stanmore_App.dll
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.deps.json
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.dll
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\bin\Debug\netstandard2.0\Stanmore_App.pdb
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.csproj.AssemblyReference.cache
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\AboutUs.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ActivitiesPage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\AssignmentsPage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\BusinessPage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ContactsPage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\CourseInformationPage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\EngineeringPage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ITPage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Menu.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\MePage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\RegistrationPage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\SignIn.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\TodaysTimetable.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\WeeklyTimetable.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.AssemblyInfoInputs.cache
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.AssemblyInfo.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.csproj.CoreCompileInputs.cache
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.dll
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\refint\Stanmore_App.dll
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Stanmore_App.pdb
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\ref\Stanmore_App.dll
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Accounting.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\English.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Maths.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Science.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Timetable2.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Timetable3.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Pravin.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Absence.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Jerry.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Jeya.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Kousik.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Ruhina.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Said.xaml.g.cs
+D:\Stanmore College\Unit 7\Stanmore_App\Stanmore_App\Stanmore_App\obj\Debug\netstandard2.0\Sydney.xaml.g.cs
