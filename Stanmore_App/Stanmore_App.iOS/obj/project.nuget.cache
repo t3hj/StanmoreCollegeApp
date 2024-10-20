@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "y40qNUTbm27eQPVCS7tOuoJYsc9/g+Rkn+wUzcz/srENia+v84Age42lyhyhCTw/Hh0c6PEpf6VDp73xK83MWw==",
+  "success": true,
+  "projectFilePath": "D:\\Stanmore College\\Unit 7\\Stanmore_App\\Stanmore_App\\Stanmore_App.iOS\\Stanmore_App.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tehjp\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\tehjp\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\tehjp\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\tehjp\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\tehjp\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
+  ],
+  "logs": []
+}
