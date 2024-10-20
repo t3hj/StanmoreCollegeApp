@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.ITPage"
+             BackgroundImageSource="ITCourseInformation.png">
+    
+    <ContentPage.Content>
+        
+        <!-- scrollview to allow users to scroll up and down teh page to see
+        all of the information, adn to make sure it is not crmaped -->
+
+        <ScrollView VerticalOptions="FillAndExpand" TranslationY="0" >
+            <StackLayout HeightRequest="2000" BackgroundColor="Transparent">
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="-50" TranslationY="0"/>
+
+                <!-- IT title -->
+
+                <Label Text="Information Technology"  FontSize="20" TextColor="White" HorizontalOptions="Center"></Label>
+
+                <!-- Information to be displayed -->
+
+                <Label Padding="20,20,20,20" FontSize="20" TextColor="White">
+
+                    <Label.Text>
+
+                        Course Content
+This course is designed to give you the knowledge, skills and training to become an IT specialist. It provides the opportunity to go into employment within the IT sector or to progress to higher qualifications in Computing and ICT at university. You will develop a range of skills and techniques, personal skills and attributes essential for successful performance in your working life as an IT professional. Furthermore, the course is designed to give you an excellent grounding in a wide range of computing and IT applications, so you have a good all-round understanding of the use of IT in modern society.
+
+Course Outcomes
+Mandatory Units:
+
+Principles of Computer Science
+Fundamentals of Computer Systems
+Planning and Management of Computing Projects
+Software Design and Development Project
+Progression
+The BTEC IT Level 3 National Extended Diploma in InformationTechnology is equivalent to three A Levels. On completion of the course, you will gain a nationally recognised qualification which will equip you for work in the Computing and IT sectors, or prepare you for further study at university. You may want to specialise in one of the areas of Computing and IT you have studied in the BTEC programme, such as web-design, computer programming, graphics or e-commerce.
+
+Entry Requirements
+4 GCSEs at grade C/4 including Maths and English. Alternatively, Level 2 BTEC Certificate/Extended Certificate in IT at Merit grade including Maths and English at grade C/4.
+
+(Exceptions to entry requirements onto our level 3 qualifications may be considered)
+
+Assessment
+Assignments, teamwork, presentation.
+
+Equipment
+You will be provided the basic at the college. However, you need to buy some books for study.
+
+                    </Label.Text>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.Maths"
+             BackgroundImageSource="MathsBackground">
+    
+    <ContentPage.Content>
+        
+        <ScrollView VerticalOptions="FillAndExpand" TranslationY="0" >
+            <StackLayout HeightRequest="2500" BackgroundColor="Transparent">
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="-50" TranslationY="0"/>
+
+                <!-- Maths title -->
+
+                <Label Text="Maths"  FontSize="20" TextColor="White" HorizontalOptions="Center"></Label>
+
+                <!-- Information to be displayed -->
+
+                <Label Padding="20,20,10,0" FontSize="20" TextColor="Black">
+
+                    <Label.Text>
+
+                        Course Content
+Edexcel GCSE Mathematics allows learners to develop a knowledge and understanding of problem solving, reasoning and functional elements of maths.
+
+The course covers:
+
+Numbers
+Algebra
+Graphs
+Shapes and Area
+Angles and Geometry
+Measures
+Statistics and Probability
+Course Outcomes
+GCSE Maths Qualification Level 2
+
+Entry Requirements
+Grade 3(D) in Maths GCSE or Functional Skills Maths Level 2.
+
+Assessment
+All students sit three 90 minute examinations.
+
+Paper 1: Non-Calculator Paper 2: Calculator Paper 3: Calculator
+
+Equipment
+Scientific calculator, GCSE Edexcel Mathematics Textbook
+
+                    </Label.Text>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

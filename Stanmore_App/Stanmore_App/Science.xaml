@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.Science"
+             BackgroundImageSource="ScienceBackground">
+    
+    <ContentPage.Content>
+        
+        <ScrollView VerticalOptions="FillAndExpand" TranslationY="0" >
+            <StackLayout HeightRequest="2500" BackgroundColor="Transparent">
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="-50" TranslationY="0"/>
+
+                <!-- Science title -->
+
+                <Label Text="Science"  FontSize="20" TextColor="White" HorizontalOptions="Center"></Label>
+
+                <!-- Information to be displayed -->
+
+                <Label Padding="20,20,10,0" FontSize="20" TextColor="WhiteSmoke">
+
+                    <Label.Text>
+                        
+                        Course Content
+This course is intended for anyone wishing to enter a career in forensic science, and deepens the learner's experience in preparation for the world of work. It is equivalent to 3 'A' levels. This is a two year full time course.
+
+Students need to complete 12 units (6 in each year), to gain their BTEC National Diploma Award. 6 units are core units which all students take. They introduce fundamentals of science, working in the science industry, scientific investigation and practical techniques and perceptions of science. Students will also study a range of 12 other units that include:
+
+Principles and Applications of Science I
+Practical Scientific Procedures and Techniques
+Science Investigation Skills
+Forensic Investigation Procedures in Practice
+Forensic Photography
+Physiology of Human Body Systems
+Course Outcomes
+BTEC Extended Diploma in Applied Science - Forensic + Criminal Investigation Level 3.
+
+Progression
+Progression could be into employment where professional body examinations or NVQ's may be taken, or students could continue to university level programmes in this area.
+
+Entry Requirements
+4 GCSEs at grade 4 (C) or above, including English, maths and Science or Merit in level 2 Applied Science with English and maths at GCSE grade 4 (C).
+
+(Exceptions to entry requirements onto our level 3 qualifications may be considered)
+
+Assessment
+Continuous portfolio-based assessment covering a variety of scientific investigations.
+
+Equipment
+Materials: £35 towards the costs of textbooks plus visits, etc.
+
+                    </Label.Text>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

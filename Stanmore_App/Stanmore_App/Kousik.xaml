@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.Kousik"
+             BackgroundImageSource="Kousik">
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="Fill">
+            <Grid>
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="0" TranslationY="0"/>
+
+                <Frame BackgroundColor="Transparent" BorderColor="DarkGray" TranslationY="500" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                    <StackLayout Orientation="Horizontal">
+                        <!-- satff name placeholder entry-->
+                        <Entry Placeholder="Type your message here ..." IsPassword="True" TextColor="AliceBlue" FontAttributes="None" HorizontalOptions="FillAndExpand" 
+                                                       x:Name="txtPassword"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

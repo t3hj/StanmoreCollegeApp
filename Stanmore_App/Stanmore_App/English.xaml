@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.English"
+             BackgroundImageSource="EnglishBackground">
+    
+    <ContentPage.Content>
+        
+        <ScrollView VerticalOptions="FillAndExpand" TranslationY="0" >
+            <StackLayout HeightRequest="2500" BackgroundColor="Transparent">
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="-50" TranslationY="0"/>
+
+                <!-- English title -->
+
+                <Label Text="English"  FontSize="20" TextColor="White" HorizontalOptions="Center"></Label>
+
+                <!-- Information to be displayed -->
+
+                <Label Padding="20,20,10,0" FontSize="20" TextColor="LightSeaGreen">
+
+                    <Label.Text>
+
+                        Course Content
+Our new ESOL PLUS study programme will give you a great chance to continue to improve your English. ESOL means English for Speakers of Other Languages and the qualification is designed to help you develop the skills you use every day and help you move on to further study.
+
+Course Outcomes
+As well as English, you will also improve your Maths and study some other topics which will include Business.
+
+There will also be work experience, trips to related companies or exhibitions and special events.
+
+Progression
+Get on a full time course next September
+Get part time or full time employment or apprenticeship
+Talk to teachers, employers and officials and understand the customs of the UK
+Entry Requirements
+Aged between 16 and 18 years
+Not currently studying
+Need to improve your English so you can start a full-time course or get onto an apprenticeship.
+ 
+Assessment
+You will have exams and gain a recognised qualification from the English Speaking Board (ESB).
+
+Equipment
+N/A
+
+                    </Label.Text>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

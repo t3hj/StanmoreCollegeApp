@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.Timetable3">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceEvenly">
+            <StackLayout  VerticalOptions="Fill">
+                <Grid>
+
+                    <Image Source="College_logo" HeightRequest="50" TranslationX="0" TranslationY="-300"/>
+
+                    <ScrollView HorizontalOptions="FillAndExpand">
+
+                        <StackLayout>
+                            <StackLayout Margin="10">
+
+                                <FlexLayout  Direction="Row" AlignItems="Center" JustifyContent="SpaceEvenly" TranslationY="0">
+
+                                    <Button Text="Tuesday"  Clicked="Button_Clicked1"/>
+
+                                    <Button Text="Wednesday" Clicked="Button_Clicked2"/>
+
+                                    <Button Text="Friday" BackgroundColor="Red" Clicked="Button_Clicked3"/>
+
+                                </FlexLayout>
+
+                                <!-- Basic non functional buttons with details for today's class details-->
+                                <!-- the buttons are non-functional because i have not coded for them to 
+                                take me anywhere in the cs file, and they have not been gicen a variable name -->
+
+                                <Button Text="Unit 14 IT Service Delivery 9:00 - 10:30                        
+                                Larch 004 with Kousik" BackgroundColor="Orange" />
+
+                                <Button Text="Break 10:30 - 10:45" BackgroundColor="Purple" />
+
+                                <Button Text="Unit 14 IT Service Delivery 10:45 - 12:15
+                                Larch 214 with Kousik" BackgroundColor="Orange" />
+
+                                <Button Text=" Lunch Break 12:15 - 12:45" BackgroundColor="DarkCyan" />
+
+                                <Button Text=" Tutorial 12:45-13:45                                                     
+                                Willow 040 with Pravin" BackgroundColor="HotPink" />
+
+                                <Button Text=" Unit 6 Website App Development 13:45-15:15
+                                Willow 024 with Sydney" BackgroundColor="Blue" />
+
+                                <Button Text=" Break 15:15 - 15:30" BackgroundColor="Purple" />
+
+                                <Button Text=" Unit 5 Data Modelling 15:30 - 16:30
+                                Willow 024 with Said" BackgroundColor="Green" />
+
+
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+            </StackLayout>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

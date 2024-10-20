@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.CourseInformationPage"
+             BackgroundImageSource="course_information">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceEvenly" >
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="-50" TranslationY="0"/>
+
+                <!-- Navigation to each courses page -->
+
+                <!-- Button for IT with image -->
+                <Image Source="ITicon" HeightRequest="50" TranslationX="-130" TranslationY="40"/>
+                <Button Text="Information Technology" Clicked="ITButton_Clicked"/>
+
+                <!-- Button for Business with image -->
+
+                <Image Source="BusinessIcon" HeightRequest="50" TranslationX="-130" TranslationY="40"/>
+                <Button Text="Business" Clicked="BusinessButton_Clicked"/>
+
+                <!-- Button for Enineering with image -->
+
+                <Image Source="EngineeringIcon" HeightRequest="30" TranslationX="-130" TranslationY="40"/>
+                <Button Text="Engineering" Clicked="EngineeringButton_Clicked"/>
+
+                <!-- Button for Accounting with image -->
+
+                <Image Source="AccountingIcon" HeightRequest="30" TranslationX="-130" TranslationY="40"/>
+                <Button Text="Accounting" Clicked="AccountingButton_Clicked"/>
+
+                <!-- Button for English with image -->
+
+                <Image Source="EnglishIcon" HeightRequest="30" TranslationX="-130" TranslationY="40"/>
+                <Button Text="English" Clicked="EnglishButton_Clicked"/>
+
+                <!-- Button for Maths with image -->
+
+                <Image Source="MathsIcon" HeightRequest="30" TranslationX="-130" TranslationY="40"/>
+                <Button Text="Maths" Clicked="MathsButton_Clicked"/>
+
+                <!-- Button for Science with image -->
+
+                <Image Source="ScienceIcon" HeightRequest="30" TranslationX="-130" TranslationY="40"/>
+                <Button Text="Science" Clicked="ScienceButton_Clicked"/>
+
+            </FlexLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

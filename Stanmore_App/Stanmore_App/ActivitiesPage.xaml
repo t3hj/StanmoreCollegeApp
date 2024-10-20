@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.ActivitiesPage"
+             BackgroundImageSource="activities_page">
+    <ContentPage.Content>
+
+        <StackLayout  VerticalOptions="Fill">
+            <Grid>
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="0" TranslationY="-300"/>
+                
+                <!-- scrollview to allow users to scroll to see all activities -->
+
+                <StackLayout Margin="50,100,50,50">
+
+                    <Label Text="Today's Activities" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" FontSize="25" TextColor="Black">
+
+                    </Label>
+
+                    <ScrollView VerticalOptions="FillAndExpand" TranslationY="0" >
+
+                        <!-- padding and margin to get all activity button into teh centre and away from the edges -->
+                        
+                        <StackLayout Padding="0" Margin="0,0,0,380" HorizontalOptions="FillAndExpand">
+                            <StackLayout Margin="10">
+                                
+                                <!-- each button represents a differetn activity, these buttons are non functional because
+                                they have not been given a variable name and the 'cs' page does not have any code for where they
+                                should take the user to when clicked.-->
+                                
+                                <Button Text="Basketball" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand" CornerRadius="20" ImageSource="basketball" />
+
+                                <Button Text="Football" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand" CornerRadius="20" ImageSource="football" />
+
+                                <Button Text="Gymnastics" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand" CornerRadius="20" ImageSource="gymnastics" />
+
+                                <Button Text="Javelin" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand" CornerRadius="20" ImageSource="javelin" />
+
+                                <Button Text="Table Tennis" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand" CornerRadius="20" ImageSource="table_tennis" />
+
+                                <Button Text="Tennis" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand" CornerRadius="20" ImageSource="tennis" />
+
+                                <Button Text="Wrestling" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand" CornerRadius="20" ImageSource="wrestling" />
+
+                                <Button Text="Weightlifting" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand" CornerRadius="20" ImageSource="weightlifting" />
+                            </StackLayout>
+                        </StackLayout>
+
+                    </ScrollView>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

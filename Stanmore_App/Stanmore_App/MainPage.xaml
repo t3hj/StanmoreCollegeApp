@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.MainPage" 
+             BackgroundImageSource="Home_Welcome_Page">
+
+    <StackLayout>
+
+        <Image Source="College_logo" HeightRequest="50" TranslationX="-50"/>
+        <Label Text="Welcome To Stanmore College" FontSize="Title" Padding="25,20,30,10"/>
+
+        <!-- Sign in Button -->
+        <Button Text="Sign In" BackgroundColor="LightBlue" FontSize="20" TextColor="Black" HorizontalOptions="Center" CornerRadius="20" Clicked="Button_Clicked" TranslationY="400" TranslationX="-40"/>
+        <Label Text=""  TextColor="Red" Padding="0,100,30,10"/>
+
+        <!-- logo next to sign in button-->
+        <Image Source="user_secured" HeightRequest="50" TranslationX="50" TranslationY="200"/>
+
+        <!-- Register Button -->
+        <Button Text="Register" BackgroundColor="LightBlue" FontSize="20" TextColor="Black" HorizontalOptions="Center" CornerRadius="20" Clicked="Button_Clicked2" TranslationY="220" TranslationX="-40"/>
+        <Label Text=""  TextColor="Red" Padding="100,0,30,10"/>
+
+        <!-- logo next to registration button-->
+        <Image Source="register" HeightRequest="50" TranslationX="55" TranslationY="130"/>
+
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.BusinessPage"
+             BackgroundImageSource="BusinessBackground">
+    
+    <ContentPage.Content>
+        
+        <ScrollView VerticalOptions="FillAndExpand" TranslationY="0" >
+            <StackLayout HeightRequest="3250" BackgroundColor="Transparent">
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="-50" TranslationY="0"/>
+
+                <!-- Business title -->
+
+                <Label Text="Business"  FontSize="20" TextColor="Black" HorizontalOptions="Center"></Label>
+
+                <!-- Information to be displayed -->
+
+                <Label Padding="20,20,10,0" FontSize="20" TextColor="Black">
+
+                    <Label.Text>
+
+                        Course Content
+Pearson BTEC National Extended Diploma in Business
+
+The Extended Diploma is a two-year, full-time course that meets entry requirements in its own right for learners who want to progress to higher education courses in business areas before entering employment. It can also support learners who want to progress directly to employment in job roles in business or business management and Higher Apprenticeships in the business sector.
+
+Year 1 units include:
+
+1 Exploring Business
+2 Developing a Marketing Campaign (exam)
+3 Personal and Business Finance (exam)
+4 Managing an Event
+8 Recruitment and Selection Process
+14 Investigating Customer Service
+Year 2 units include:
+
+5 International Business
+6 Principles of Management (exam)
+7 Business Decision Making (exam)
+22 Market Research
+17 Digital Marketing
+34 Investment Opportunities and Financial Planning
+23 The English Legal System
+Learning Resources Students are provided with various learning and self-study materials for the BTEC Extended Diploma. All students have free and open access to the Learning Centre to use the computer and library facilities for their research. Independent learning and development of research skills are essential.
+
+Course Outcomes
+To provide a solid base of business knowledge and skills to allow students to progress easily into higher education and employment.
+
+Progression
+The BTEC Level 3 Extended Diploma in Business is equivalent to 3 A Levels and will provide progression opportunities into Higher Education to do a degree/foundation degree, apprenticeship or HND course, or to enter employment at a supervisory level.
+
+EXTRA CURRICULAR ACTIVITIES: All students can add to their main programme of study by taking part in a wide range of clubs, groups, societies and courses. Not only are the activities fun, they also develop skills and provide new and fulfilling experiences, as well as enhancing applications to Higher Education and employment. Learners will visit the Old Bailey, Houses of Parliament, UCAS convention and The Great British Business show in Kensington, Olympia.
+
+Entry Requirements
+4 GCSEs at grade 4 or above including English and Maths (or an equivalent Level 2 Literacy qualification). Alternatively, BTEC First Diploma in Business at merit grade or above plus GCSE English and Maths Grade 4 or above.
+
+(Exceptions to entry requirements onto our level 3 qualifications may be considered)
+
+Assessment
+1080 GLH (1430 TQT) Equivalent in size to three A Levels. 13 units of which 7 are mandatory and 4 are external. Mandatory content (66%) External assessment (42%).
+
+Equipment
+This two year course is covered by two text books at a total of about £40.00
+
+Further costs are required to support external visits.
+
+                    </Label.Text>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

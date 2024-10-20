@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.MePage">
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="Fill">
+            <Grid>
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="0" TranslationY="-180"/>
+
+
+                <!--white border-->
+                <StackLayout Padding="0" Margin="0,80,0,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" HeightRequest="200" HasShadow="True" Padding="0" Margin="10">
+                        <!--welcome message-->
+                        <StackLayout>
+                            <StackLayout Margin="10">
+                                <Label Text="Welcome to your profile, Tehj!" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="25" TranslationX="0" />
+                            </StackLayout>
+                            <!-- attendance text with image-->
+                            <Label Text="Attendance" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="StartAndExpand"  TranslationX="0" TranslationY="0"/>
+                            <Image Source="attendance" TranslationX="-30" TranslationY="0" HeightRequest="100" ></Image>
+                            
+                            <Image Source="Tim" TranslationX="100" TranslationY="-152" HeightRequest="150" ></Image>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <!--white border-->
+                <StackLayout Padding="0" Margin="0,300,0,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" HeightRequest="125" HasShadow="True" Padding="0" Margin="10">
+                        <StackLayout>
+                            <!-- punctuality text with image-->
+                            <Label Text="Punctuality" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="StartAndExpand"  TranslationX="0" TranslationY="0"/>
+                            <Image Source="punctuality" TranslationX="-30" TranslationY="-10" HeightRequest="100" ></Image>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

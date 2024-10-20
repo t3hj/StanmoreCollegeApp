@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.SettingsPage">
+
+    <ContentPage.Content>
+
+        <StackLayout  VerticalOptions="Fill">
+            <Grid>
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="0" TranslationY="-60"/>
+
+                <StackLayout Padding="0" HorizontalOptions="FillAndExpand">
+                    <!-- about us page button -->
+                    <StackLayout Margin="10">
+                        <Button Text="About Us Page" BackgroundColor="White" FontSize="30" TextColor="Black" HorizontalOptions="StartAndExpand" CornerRadius="20" Clicked="AboutUsButton_Clicked" TranslationY="90" />
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Padding="0" HorizontalOptions="FillAndExpand">
+                    <!-- sign out text (not an actual button) -->
+                    <StackLayout Margin="10">
+                        <Button Text="Sign Out" BackgroundColor="Transparent" FontSize="30" TextColor="Black" HorizontalOptions="StartAndExpand" CornerRadius="20" TranslationY="150" />
+                    </StackLayout>
+                </StackLayout>
+
+                <!--white border-->
+                <StackLayout Padding="0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" HeightRequest="200" HasShadow="True" Padding="0" Margin="10" TranslationY="225" >
+                        <!-- sign out text within white border-->
+                        <StackLayout>
+                            <StackLayout Margin="10">
+                                <Button Text="If you no longer want to use this app on this device you can log out." BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="StartAndExpand" TranslationX="0" TranslationY="00" />
+                            </StackLayout>
+                            <!-- sign out button to take user to main page -->
+                            <Button Text="Sign Out" BackgroundColor="Red" FontSize="20" TextColor="Black" HorizontalOptions="FillAndExpand" CornerRadius="20" Clicked="LogoutButton_Clicked" TranslationX="0" TranslationY="00" />
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

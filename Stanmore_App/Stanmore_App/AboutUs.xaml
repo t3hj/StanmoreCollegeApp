@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.AboutUs"
+             BackgroundImageSource="Blank">
+    
+    
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="FillAndExpand" TranslationY="0" >
+            <StackLayout HeightRequest="3000" BackgroundColor="Transparent">
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="-50" TranslationY="0"/>
+
+                <!-- about us title -->
+
+                <Label Text="About Us"  FontSize="20" TextColor="White" HorizontalOptions="Center"></Label>
+
+                <!-- Information to be displayed -->
+
+                <Label Padding="20,20,20,20" FontSize="20" TextColor="White">
+
+                    <Label.Text>
+
+                        Stanmore College was established in 1987. The College offers its students a wealth of provision, an excellent experience and top-class teaching from highly skilled staff. Based in Stanmore, Greater London, the College offers education to both young and adult learners mainly from Brent, Harrow, Hertfordshire and London.
+
+It provides a range of vocational as well as academic provision. The College has grown within the sector by developing its higher education provision. Bespoke training is available to businesses (delivered in house or at business premises) and the College is also involved with apprenticeships.
+
+Our focus at the College is to provide excellence in teaching and learning and an environment where all students can achieve their potential. In particular, we are committed to developing a love of learning and inspiring all learners to accomplish their personal goals whether it be university level study, career development or a new personal interest.
+
+Mission Statement
+Our mission is to provide high quality teaching and learning so that learners develop transferable skills and achieve their full potential.
+
+Our Vision and Values
+Our vision is to ensure that all learners will develop the skills and knowledge they need to achieve qualifications and progress into higher-level courses or employment.
+
+All learners and staff will be offered a good teaching and learning enviornment that allows them to enjoy their further education and be proud of being members of the College.
+
+Key aspects of our vision include:
+
+• high-quality education and training
+• improving life-chances of learners to ensure learners are well-equipped with the right skills to compete globally
+• highly-skilled and committed workforce
+• strong employer engagement/collaboration
+• excellent learner experience that is fully learner-focussed
+• diverse and coherent curriculum offering learners a first-choice College
+• financial stability
+                        
+Core Values
+• Welcoming: putting stakeholders and learners first
+                        
+• Inclusive: an accessible working environment valuing everyone
+                        
+• Supportive: to all learners, staff and the community
+                        
+• Respect: between stakeholders, learners, staff and the community
+                        
+• Growth: investing in our facilities and achieving growth
+                        
+• Collaboration: working in successful partnerships
+
+• Openness: listening to learners and staff
+                        
+• Aspirational: enabling staff and learners to obtain their full potential
+                        
+• Commitment: working hard to achieve our goals.
+
+                    </Label.Text>
+                </Label>
+
+                <WebView x:Name="webView" Source="https://www.youtube.com/embed/watch?v=EgjqgBcdcUA" HeightRequest="300" WidthRequest="300"></WebView>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

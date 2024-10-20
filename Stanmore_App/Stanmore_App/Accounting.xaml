@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.Accounting"
+             BackgroundImageSource="AccountingBackground">
+    
+    <ContentPage.Content>
+        
+        <ScrollView VerticalOptions="FillAndExpand" TranslationY="0" >
+            <StackLayout HeightRequest="3000" BackgroundColor="Transparent">
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="-50" TranslationY="0"/>
+
+                <!-- Accounting title -->
+
+                <Label Text="Accounting"  FontSize="20" TextColor="Black" HorizontalOptions="Center"></Label>
+
+                <!-- Information to be displayed -->
+
+                <Label Padding="20,20,10,0" FontSize="20" TextColor="Black">
+
+                    <Label.Text>
+
+                        Course Content
+An AAT Accounting qualification is an internationally recognised professional accounting qualification based on practical, real-life knowledge that can be use from day one. In the UK the accounting sector is worth approximately £6 billion, with over 7500 organisations and just under 50,000 employees. Accountants are required not only to manage the finances of organisations, ranging from sole traders through to large corporate companies, but also for decision-making for the business, based on their accounting expertise.
+
+The course covers the following main areas:
+
+Business Awareness
+Financial Accounting: Preparing Financial Statements
+Management Accounting Techniques
+Tax Processes for Businesses
+The Level 3 Diploma in Accounting offers technical training in accounting and is ideal for anyone wishing to pursue a career in accountancy or finance. The purpose of this qualification is to provide students with the specialist knowledge and skills required to progress to employment in an accounting or finance role, or to further study in accountancy and finance.
+
+The Level 3 Diploma in Accounting is a potential route into employment. It can also be a stepping-stone to further education, with students progressing onto the Level 4 Diploma in Professional Accounting. It may be suited to students studying part-time alongside employment or to those already working in finance. This qualification will also suit those looking to gain the skills required to move into a career in finance as it provides a clear pathway towards a successful career in accounting and finance.
+                        
+Course Outcomes
+Students will learn and develop skills needed for financial processes, including accounting principles and concepts, advanced bookkeeping and preparing financial statements. They will also understand the business environment, technology used in finance and accounting, business issues regarding payroll and value added tax (VAT) (which may be known by another name in other countries), issues in business, management accounting techniques, ethical principles and sustainability considerations for accountants.
+
+
+
+Progression
+This Level 3 qualification provides opportunities to progress to the Level 4 AAT qualification.
+
+Skills developed through this qualification could lead to employment as:
+
+Accounts Assistant
+Accounts Payable and Expenses Supervisor
+Assistant Accountant
+Credit Controller
+Finance Assistant
+Finance Officer
+Payroll Supervisor
+Senior Bookkeeper
+Tax Assistant
+Entry Requirements
+6 GCSEs at grade 6 (B) or you will need to have passed level 2 foundation certification in accounting.
+
+
+(Exceptions to entry requirements onto our level 3 qualifications may be considered)
+
+Assessment
+Students will be assessed through formal online tests which are set by AAT at the centre.
+
+Equipment
+Students will need to have a valid AAT registration for the duration of the course.
+
+Students will need to have a valid AAT registration for the duration of the course.                        
+
+                    </Label.Text>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

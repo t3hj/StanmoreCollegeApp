@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.HomePage">
+
+    <ContentPage.Content>
+
+        <StackLayout  VerticalOptions="Fill">
+            <Grid>
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="0" TranslationY="-300"/>
+
+                <!--white border-->
+                <StackLayout Padding="0" Margin="0,80,0,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" HeightRequest="125" HasShadow="True" Padding="0" Margin="0">
+                        <!--welcome message-->
+                        <StackLayout>
+                            <StackLayout Margin="10">
+                                <Label Text="Welcome back, Tehj" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="25" TranslationX="-30" />
+                                <Image Source="school" TranslationX="-170" TranslationY="-30" ></Image>
+                            </StackLayout>
+                            <!-- class schdule button with images-->
+                            <Image Source="class_schedule" TranslationX="-170" TranslationY="-15" ></Image>
+                            <Button Text="Today's Schedule" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand" CornerRadius="20" Clicked="TodaysTimetableButton_Clicked" TranslationX="-50" TranslationY="-60"/>
+
+                            <Image Source="Tim" TranslationX="130" TranslationY="-155" ></Image>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <!--view timetable button with white border-->
+                 <StackLayout Padding="0" Margin="10,250,220,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" HeightRequest="125" HasShadow="True" Padding="0" Margin="0">
+                        <!--Button to navigate to another page-->
+                        <StackLayout Margin="10">
+                            <Button Text="View Timetable" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand" CornerRadius="20" Clicked="WeeklyTimetableButton_Clicked" TranslationX="0" TranslationY="0" ImageSource="timetable" />
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <!--view your course button with white border-->
+                <StackLayout Padding="0" Margin="220,250,10,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" HeightRequest="125" HasShadow="True" Padding="0" Margin="0">
+                        <!--Button to navigate to another page-->
+                        <StackLayout Margin="10">
+                            <Button Text="View Course Info" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand" CornerRadius="20" Clicked="CourseInformationButton_Clicked" TranslationX="0" TranslationY="0" ImageSource="info" />
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <!--view activties button with white border-->
+                <StackLayout Padding="0" Margin="10,400,220,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" HeightRequest="125" HasShadow="True" Padding="0" Margin="0">
+                        <!--Button to navigate to another page-->
+                        <StackLayout Margin="10">
+                            <Button Text="View Activities" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand" CornerRadius="20" Clicked="ActivitiesButton_Clicked" TranslationX="0" TranslationY="0" ImageSource="sports" />
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <!--view menu button with white border-->
+                <StackLayout Padding="0" Margin="220,400,10,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="White" HeightRequest="125" HasShadow="True" Padding="0" Margin="0">
+                        <!--Button to navigate to another page-->
+                        <StackLayout Margin="10">
+                            <Button Text="View Food Menu" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand" CornerRadius="20" Clicked="CafeteriaButton_Clicked" TranslationX="0" TranslationY="0" ImageSource="burger" />
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <!--bottom page button with white border and image-->
+                <StackLayout Padding="0" Margin="0,570,0,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="Gray" HeightRequest="113" WidthRequest="100" HasShadow="True" Padding="0" Margin="0">
+                        <StackLayout Margin="-10">
+                            <Button Text="My Profile" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand" CornerRadius="20" Clicked="MePageButton_Clicked" TranslationX="-90" TranslationY="10" ImageSource="me" />
+                            <Button Text="Contacts" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand" CornerRadius="20" Clicked="ContactsPageButton_Clicked" TranslationX="110" TranslationY="-44" ImageSource="messages" />
+                             <Button Text="Assignments" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand" CornerRadius="20" Clicked="AssignmentsPageButton_Clicked" TranslationX="-80" TranslationY="-36" ImageSource="documents" />
+                             <Button Text="Settings" BackgroundColor="White" FontSize="20" TextColor="Black" HorizontalOptions="CenterAndExpand" CornerRadius="20" Clicked="SettingsButton_Clicked" TranslationX="110" TranslationY="-90" ImageSource="settings" />
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.ContactsPage">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column" AlignItems="Center" JustifyContent="SpaceEvenly">
+            <StackLayout  VerticalOptions="Fill">
+                <Grid>
+
+                    <Image Source="College_logo" HeightRequest="50" TranslationX="0" TranslationY="-300"/>
+
+                    <ScrollView HorizontalOptions="CenterAndExpand">
+
+                        <StackLayout>
+                            <StackLayout Margin="0,75,0,10">
+
+                                <Button Text="Contacts" BackgroundColor="Transparent" TextColor="White"/>
+
+                                <!-- Basic buttons with details for satff contact details-->
+                                <!-- the buttons are functional because i have coded fro them to 
+                                take me somehwere in the cs file, and they have  been gicen a variable name -->
+
+                                <Button Text="Pravin Chandegra" BackgroundColor="Transparent" TextColor="White" Clicked="PravinButton_clicked" ImageSource="Pravin"/>
+
+                                <Button Text="Ruhina Mehdi" BackgroundColor="Transparent" TextColor="White" Clicked="RuhinaButton_clicked" ImageSource="Ruhina"/>
+
+                                <Button Text="Absence Hotline" BackgroundColor="Transparent" TextColor="White" Clicked="AbsenceButton_clicked"/>
+
+                                <Button Text="Jerry Bent" BackgroundColor="Transparent" TextColor="White" Clicked="JerryButton_clicked" ImageSource="Jerry"/>
+
+                                <Button Text="Said Aghari" BackgroundColor="Transparent" TextColor="White" Clicked="SaidButton_clicked" ImageSource="Said"/>
+
+                                <Button Text="Kousik Veerappan" BackgroundColor="Transparent" TextColor="White" Clicked="KousikButton_clicked" ImageSource="Kousik"/>
+
+                                <Button Text="Sydney Ezika" BackgroundColor="Transparent" TextColor="White" Clicked="SydneyButton_clicked" ImageSource="Sydney"/>
+
+                                <Button Text="Jeya P" BackgroundColor="Transparent" TextColor="White" Clicked="JeyaButton_clicked" ImageSource="Jeya"/>
+
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+            </StackLayout>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.SignIn">
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="Fill">
+            <Grid>
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="0" TranslationY="-250"/>
+
+                <!--Sign in panel setup-->
+                <StackLayout Padding="0" Margin="10,100,10,0" HorizontalOptions="FillAndExpand">
+                    <Frame  BackgroundColor="Transparent" HeightRequest="500" HasShadow="True" Padding="0" Margin="0">
+                        <!--Sign in Header label-->
+                        <StackLayout>
+                            <StackLayout Margin="10">
+                                <Label Text="SIGN IN" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                            </StackLayout>
+
+                            <StackLayout Padding="0" Margin="15,10">
+                                <!--Username placeholder view setup-->
+                                <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+
+                                            <!--Icon for username placeholder from online source-->
+                                            <Image Source="user" Aspect="AspectFill" Margin="0"/>
+                                        </Frame>
+                                        <!-- Username input placeholder entry -->
+                                        <Entry Placeholder="Username" TextColor="AliceBlue" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" 
+                                                       x:Name="txtUsername"/>
+                                    </StackLayout>
+                                </Frame>
+
+                                <!--Password placeholder view setup-->
+                                <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Frame BackgroundColor="SkyBlue" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="0" Margin="5">
+
+                                            <!--Icon for password placeholder from online source-->
+                                            <Image Source="padlock" Aspect="AspectFill" Margin="0"/>
+                                        </Frame>
+
+                                        <!-- Password input placeholder entry-->
+                                        <Entry Placeholder="Password" IsPassword="True" TextColor="AliceBlue" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0" 
+                                                       x:Name="txtPassword"/>
+                                    </StackLayout>
+                                </Frame>
+                                <!-- Remember me and Forgot Password setup -->
+                                <StackLayout  Orientation="Horizontal">
+                                    <!-- Checkbox settings -->
+                                    <CheckBox IsChecked="False" Color="AntiqueWhite" />
+
+                                    <!-- Remember me and Forgot Password labels -->
+                                    <Label Text="Remember me" TextColor="Black" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+                                    <Label Text="Forgot Password" TextColor="Red" FontAttributes="Bold" HorizontalOptions="EndAndExpand" FontSize="Small" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
+                                </StackLayout>
+
+                                <!-- Sign in Button with event handler Clicked="Button_Clicked"-->
+                                <Button Text="Login" BackgroundColor="LightBlue" FontSize="20" TextColor="Black" HorizontalOptions="Center" CornerRadius="20" Clicked="Button_Clicked"/>
+                                <Label Text="" x:Name="lblResult" TextColor="Red"/>
+
+                                <!-- Register labels -->
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                    <Label Text="Not Connected ?" TextColor="Black" FontSize="Small"/>
+                                    <Button Text="Register Here"  TextColor="Red" BackgroundColor="Transparent" TranslationY="-15" Clicked="Reg_Clicked"/>
+                                </StackLayout>
+                                
+                            </StackLayout>
+                        </StackLayout>
+
+                    </Frame>
+                </StackLayout>
+                
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Stanmore_App.EngineeringPage"
+             BackgroundImageSource="EngineeringBackground">
+    
+    <ContentPage.Content>
+        
+        <ScrollView VerticalOptions="FillAndExpand" TranslationY="0" >
+            <StackLayout HeightRequest="2500" BackgroundColor="Transparent">
+
+                <Image Source="College_logo" HeightRequest="50" TranslationX="-50" TranslationY="0"/>
+
+                <!-- Engineering title -->
+
+                <Label Text="Engineering"  FontSize="20" TextColor="Black" HorizontalOptions="Center"></Label>
+
+                <!-- Information to be displayed -->
+
+                <Label Padding="20,20,10,0" FontSize="20" TextColor="Black">
+
+                    <Label.Text>
+
+                        Course Content
+Technical level course in engineering. Level 3 maths (AS or Core) as appropriate, tutorial, work experience in a relevant institution, e.g. Engineering Design, Telecommunications etc, preparation for employment in an appropriate Engineering related career. Students receive classroom based tuition using the latest resources and have an opportunity to explore and research aspects of engineering. Engineering related enrichment will involve lectures from a local university about how to get in to an appropriate Engineering related undergraduate programme, work shadowing and industry days.
+
+Course Outcomes
+Level 3 qualification/progression opportunities.
+
+Progression
+Most young people studying on the Engineering study programme progress to university to study Aeronautical, Chemical, Electrical and Electronic, Mechanical engineering. Stanmore College has an excellent reputation for progression to higher education with success up to 20% higher than the London average for colleges. The Engineering study programme has been designed to give you an even better chance of getting into the university of their choice through the addition of specific activities. These will be augmented with HE talks, visits and workshops at the end of the first year of study.
+
+Entry Requirements
+4 GCSEs at Grade 4 / C and above including English and science, with GCSE Grade 5 / B in maths or above. Alternatively, Merit at Level 2 BTEC Extended Certificate in Science or Engineering plus English at Grade 4 / C or above and maths at Grade 5 / B or above.
+
+(Exceptions to entry requirements onto our level 3 qualifications may be considered)
+
+Assessment
+There are assessments. More information at interview / enrolment.
+
+Equipment
+Student will need a text book, stationery, calculator, writing paper, folder etc for the organisation of their work.
+
+                    </Label.Text> 
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
